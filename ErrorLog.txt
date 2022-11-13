@@ -1,0 +1,1078 @@
+﻿Message: A field or property with the name 'MenuID' was not found on the selected data source.<br />
+StackTrace :   at System.Web.UI.WebControls.HyperLinkField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Nyumbani_Landlords.ViewBuildings.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewBuildings.aspx.cs:line 34
+Date :12/3/2021 2:41:59 PM
+-----------------------------------------------------------------------------
+Message: A field or property with the name 'Edit' was not found on the selected data source.<br />
+StackTrace :   at System.Web.UI.WebControls.HyperLinkField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Nyumbani_Landlords.ViewBuildings.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewBuildings.aspx.cs:line 34
+Date :13/3/2021 11:33:03 PM
+-----------------------------------------------------------------------------
+Message: Must declare the scalar variable "@Furnishing".<br />
+StackTrace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ClassLibrary_PropertyManager.Controller.cUnit.AddUnit(mUnit pUnit) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cUnit.cs:line 67
+   at Nyumbani_Landlords.AddUpdateUnit.btnSubmit_Click(Object sender, EventArgs e)
+Date :17/3/2021 3:35:23 PM
+-----------------------------------------------------------------------------
+Message: A field or property with the name 'IsActive' was not found on the selected data source.<br />
+StackTrace :   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Nyumbani_Landlords.ViewUnits.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewUnits.aspx.cs:line 36
+Date :18/3/2021 12:01:05 AM
+-----------------------------------------------------------------------------
+Message: A field or property with the name 'IsActive' was not found on the selected data source.<br />
+StackTrace :   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Nyumbani_Landlords.ViewUnits.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewUnits.aspx.cs:line 36
+Date :18/3/2021 12:02:42 AM
+-----------------------------------------------------------------------------
+Message: A field or property with the name 'IsActive' was not found on the selected data source.<br />
+StackTrace :   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Nyumbani_Landlords.ViewUnits.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewUnits.aspx.cs:line 36
+Date :18/3/2021 12:02:46 AM
+-----------------------------------------------------------------------------
+Message: A field or property with the name 'IsActive' was not found on the selected data source.<br />
+StackTrace :   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Nyumbani_Landlords.ViewUnits.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewUnits.aspx.cs:line 36
+Date :18/3/2021 12:03:42 AM
+-----------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object.<br />
+StackTrace :   at Nyumbani_Landlords.AddUpdateUnit.LoadDataOnUpdate() in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateUnit.aspx.cs:line 90
+   at Nyumbani_Landlords.AddUpdateUnit.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateUnit.aspx.cs:line 36
+Date :18/3/2021 12:10:02 AM
+-----------------------------------------------------------------------------
+Message: Column 'BuildingAddress' does not belong to table .<br />
+StackTrace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Nyumbani_Landlords.AddUpdateUnit.LoadDataOnUpdate()
+   at Nyumbani_Landlords.AddUpdateUnit.Page_Load(Object sender, EventArgs e)
+Date :18/3/2021 12:13:15 AM
+-----------------------------------------------------------------------------
+Message: Column 'UnitImages' does not belong to table .<br />
+StackTrace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Nyumbani_Landlords.AddUpdateUnit.LoadDataOnUpdate()
+   at Nyumbani_Landlords.AddUpdateUnit.Page_Load(Object sender, EventArgs e)
+Date :18/3/2021 12:13:53 AM
+-----------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object.<br />
+StackTrace :   at Nyumbani_Landlords.AddUpdateUnit.LoadDataOnUpdate()
+   at Nyumbani_Landlords.AddUpdateUnit.Page_Load(Object sender, EventArgs e)
+Date :18/3/2021 12:17:57 AM
+-----------------------------------------------------------------------------
+Message: The parameterized query '(@TenantNationalID nvarchar(8),@LandLordID int,@TenantName nvarc' expects the parameter '@TenantPassword', which was not supplied.<br />
+StackTrace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at ClassLibrary_PropertyManager.Controller.cTenant.AddNewTenant(mTenant pTenant) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cTenant.cs:line 39
+   at Nyumbani_Landlords.AddUpdateTenant.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateTenant.aspx.cs:line 136
+Date :19/3/2021 1:17:02 PM
+-----------------------------------------------------------------------------
+Message: The parameterized query '(@TenantNationalID nvarchar(8),@LandLordID int,@TenantName nvarc' expects the parameter '@TenantPassword', which was not supplied.<br />
+StackTrace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at ClassLibrary_PropertyManager.Controller.cTenant.AddNewTenant(mTenant pTenant) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cTenant.cs:line 39
+   at Nyumbani_Landlords.AddUpdateTenant.btnSubmit_Click(Object sender, EventArgs e)
+Date :19/3/2021 1:20:18 PM
+-----------------------------------------------------------------------------
+Message: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'TenanatOccupation'.<br />
+StackTrace :   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.viewtenants_aspx.__DataBind__control22(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewTenants.aspx:line 90
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Nyumbani_Landlords.ViewTenants.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewTenants.aspx.cs:line 36
+Date :22/3/2021 1:39:07 PM
+-----------------------------------------------------------------------------
+Message: Column 'TenantNationslID' does not belong to table .<br />
+StackTrace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Nyumbani_Landlords.AddUpdateTenant.LoadDataOnUpdate()
+   at Nyumbani_Landlords.AddUpdateTenant.Page_Load(Object sender, EventArgs e)
+Date :22/3/2021 2:04:27 PM
+-----------------------------------------------------------------------------
+Message: Column 'TenantNationslID' does not belong to table .<br />
+StackTrace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Nyumbani_Landlords.AddUpdateTenant.LoadDataOnUpdate()
+   at Nyumbani_Landlords.AddUpdateTenant.Page_Load(Object sender, EventArgs e)
+Date :22/3/2021 2:05:46 PM
+-----------------------------------------------------------------------------
+Message: Incorrect syntax near ']'.<br />
+StackTrace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ClassLibrary_PropertyManager.Controller.cTenant.UpdateTenant(mTenant pTenant) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cTenant.cs:line 104
+   at Nyumbani_Landlords.AddUpdateTenant.btnSubmit_Click(Object sender, EventArgs e)
+Date :22/3/2021 2:07:17 PM
+-----------------------------------------------------------------------------
+Message: Incorrect syntax near ']'.<br />
+StackTrace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ClassLibrary_PropertyManager.Controller.cTenant.UpdateTenant(mTenant pTenant) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cTenant.cs:line 104
+   at Nyumbani_Landlords.AddUpdateTenant.btnSubmit_Click(Object sender, EventArgs e)
+Date :22/3/2021 2:08:18 PM
+-----------------------------------------------------------------------------
+Message: Cannot use a leading .. to exit above the top directory.<br />
+StackTrace :   at System.Web.Util.UrlPath.ReduceVirtualPath(String path)
+   at System.Web.Util.UrlPath.Reduce(String path)
+   at System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   at System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at Nyumbani_Landlords.AddUpdateTenant.btnSubmit_Click(Object sender, EventArgs e)
+Date :22/3/2021 2:40:06 PM
+-----------------------------------------------------------------------------
+Message: Unable to cast object of type 'ClassLibrary_PropertyManager.Model.mUnit' to type 'System.Data.DataTable'.<br />
+StackTrace :   at Nyumbani_Landlords.AddUpdateUnit.LoadDataOnUpdate() in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateUnit.aspx.cs:line 92
+   at Nyumbani_Landlords.AddUpdateUnit.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateUnit.aspx.cs:line 36
+Date :22/3/2021 6:57:10 PM
+-----------------------------------------------------------------------------
+Message: Ambiguous column name 'LandLordID'.
+Ambiguous column name 'LandLordID'.
+Ambiguous column name 'LandLordID'.<br />
+StackTrace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at ClassLibrary_PropertyManager.Controller.cTenantContract.GetTenantContractByLandLordID(Int32 pLandLordID) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cTenantContract.cs:line 62
+   at Nyumbani_Landlords.ViewTenantContracts.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewTenantContracts.aspx.cs:line 32
+Date :5/4/2021 11:46:08 AM
+-----------------------------------------------------------------------------
+Message: Ambiguous column name 'LandLordID'.
+Ambiguous column name 'LandLordID'.<br />
+StackTrace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at ClassLibrary_PropertyManager.Controller.cTenantContract.GetTenantContractByLandLordID(Int32 pLandLordID) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cTenantContract.cs:line 62
+   at Nyumbani_Landlords.ViewTenantContracts.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewTenantContracts.aspx.cs:line 32
+Date :5/4/2021 11:49:55 AM
+-----------------------------------------------------------------------------
+Message: A field or property with the name 'AgreementDocument' was not found on the selected data source.<br />
+StackTrace :   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Nyumbani_Landlords.ViewTenantContracts.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewTenantContracts.aspx.cs:line 37
+Date :5/4/2021 11:55:29 AM
+-----------------------------------------------------------------------------
+Message: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'ContractStartDate, {0:d}'.<br />
+StackTrace :   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.viewtenantcontracts_aspx.__DataBind__control27(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewTenantContracts.aspx:line 103
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Nyumbani_Landlords.ViewTenantContracts.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewTenantContracts.aspx.cs:line 37
+Date :5/4/2021 12:09:42 PM
+-----------------------------------------------------------------------------
+Message: The given path's format is not supported.<br />
+StackTrace :   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.InternalSecurityPermissions.PathDiscovery(String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at Nyumbani_Landlords.GenerateInvoice.btnSubmit_Click(Object sender, EventArgs e)
+Date :12/4/2021 6:10:18 PM
+-----------------------------------------------------------------------------
+Message: The given path's format is not supported.<br />
+StackTrace :   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.InternalSecurityPermissions.PathDiscovery(String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at Nyumbani_Landlords.GenerateInvoice.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\GenerateInvoice.aspx.cs:line 111
+Date :12/4/2021 6:11:49 PM
+-----------------------------------------------------------------------------
+Message: The given path's format is not supported.<br />
+StackTrace :   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.InternalSecurityPermissions.PathDiscovery(String path)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at Nyumbani_Landlords.GenerateInvoice.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\GenerateInvoice.aspx.cs:line 111
+Date :12/4/2021 6:13:41 PM
+-----------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object.<br />
+StackTrace :   at Nyumbani_Landlords.AddUpdateTenant.LoadDataOnUpdate() in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateTenant.aspx.cs:line 60
+   at Nyumbani_Landlords.AddUpdateTenant.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateTenant.aspx.cs:line 33
+Date :6/5/2021 6:53:59 PM
+-----------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object.<br />
+StackTrace :   at Nyumbani_Landlords.AddUpdateTenant.LoadDataOnUpdate() in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateTenant.aspx.cs:line 60
+   at Nyumbani_Landlords.AddUpdateTenant.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateTenant.aspx.cs:line 33
+Date :6/5/2021 6:56:29 PM
+-----------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object.<br />
+StackTrace :   at Nyumbani_Landlords.AddUpdateBuilding.LoadDataOnUpdate() in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 159
+   at Nyumbani_Landlords.AddUpdateBuilding.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 34
+Date :7/5/2021 4:48:59 AM
+-----------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object.<br />
+StackTrace :   at Nyumbani_Landlords.AddUpdateBuilding.LoadDataOnUpdate() in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 159
+   at Nyumbani_Landlords.AddUpdateBuilding.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 34
+Date :7/5/2021 4:49:27 AM
+-----------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object.<br />
+StackTrace :   at Nyumbani_Landlords.AddUpdateBuilding.LoadDataOnUpdate() in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 159
+   at Nyumbani_Landlords.AddUpdateBuilding.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 34
+Date :7/5/2021 4:51:13 AM
+-----------------------------------------------------------------------------
+Message: A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.)<br />
+StackTrace :   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ClassLibrary_PropertyManager.Controller.cLandLords.VerifyLandLordInformation(String pLandLordEmail, String pLandLordPassword) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cLandLords.cs:line 102
+   at Nyumbani_Landlords.Login.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\Login.aspx.cs:line 72
+Date :7/5/2021 6:33:52 PM
+-----------------------------------------------------------------------------
+Message: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Deposit'.<br />
+StackTrace :   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression, String format)
+   at System.Web.UI.TemplateControl.Eval(String expression, String format)
+   at ASP.viewtenantcontracts_aspx.__DataBind__control24(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewTenantContracts.aspx:line 112
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Nyumbani_Landlords.ViewTenantContracts.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewTenantContracts.aspx.cs:line 39
+Date :11/05/2021 11:07:37
+-----------------------------------------------------------------------------
+Message: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Deposit'.<br />
+StackTrace :   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.viewtenantcontracts_aspx.__DataBind__control24(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewTenantContracts.aspx:line 112
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Nyumbani_Landlords.ViewTenantContracts.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewTenantContracts.aspx.cs:line 39
+Date :11/05/2021 11:08:09
+-----------------------------------------------------------------------------
+Message: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Deposit'.<br />
+StackTrace :   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.viewtenantcontracts_aspx.__DataBind__control24(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewTenantContracts.aspx:line 112
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Nyumbani_Landlords.ViewTenantContracts.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewTenantContracts.aspx.cs:line 39
+Date :11/05/2021 11:08:20
+-----------------------------------------------------------------------------
+Message: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Deposit'.<br />
+StackTrace :   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.viewtenantcontracts_aspx.__DataBind__control24(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewTenantContracts.aspx:line 112
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Nyumbani_Landlords.ViewTenantContracts.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewTenantContracts.aspx.cs:line 39
+Date :11/05/2021 11:08:46
+-----------------------------------------------------------------------------
+Message: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Deposit'.<br />
+StackTrace :   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.viewtenantcontracts_aspx.__DataBind__control24(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewTenantContracts.aspx:line 112
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Nyumbani_Landlords.ViewTenantContracts.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewTenantContracts.aspx.cs:line 39
+Date :11/05/2021 11:10:43
+-----------------------------------------------------------------------------
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)<br />
+StackTrace :   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ClassLibrary_PropertyManager.Controller.cLandLords.VerifyLandLordInformation(String pLandLordEmail, String pLandLordPassword) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cLandLords.cs:line 102
+   at Nyumbani_Landlords.Login.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\Login.aspx.cs:line 72
+Date :24/5/2021 11:18:27 AM
+-----------------------------------------------------------------------------
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)<br />
+StackTrace :   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ClassLibrary_PropertyManager.Controller.cLandLords.VerifyLandLordInformation(String pLandLordEmail, String pLandLordPassword) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cLandLords.cs:line 102
+   at Nyumbani_Landlords.Login.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\Login.aspx.cs:line 72
+Date :24/5/2021 11:18:29 AM
+-----------------------------------------------------------------------------
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)<br />
+StackTrace :   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ClassLibrary_PropertyManager.Controller.cLandLords.VerifyLandLordInformation(String pLandLordEmail, String pLandLordPassword) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cLandLords.cs:line 102
+   at Nyumbani_Landlords.Login.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\Login.aspx.cs:line 72
+Date :24/5/2021 11:18:30 AM
+-----------------------------------------------------------------------------
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)<br />
+StackTrace :   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ClassLibrary_PropertyManager.Controller.cLandLords.VerifyLandLordInformation(String pLandLordEmail, String pLandLordPassword) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cLandLords.cs:line 102
+   at Nyumbani_Landlords.Login.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\Login.aspx.cs:line 72
+Date :24/5/2021 11:18:51 AM
+-----------------------------------------------------------------------------
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)<br />
+StackTrace :   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ClassLibrary_PropertyManager.Controller.cLandLords.VerifyLandLordInformation(String pLandLordEmail, String pLandLordPassword) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cLandLords.cs:line 102
+   at Nyumbani_Landlords.Login.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\Login.aspx.cs:line 72
+Date :24/5/2021 11:18:57 AM
+-----------------------------------------------------------------------------
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)<br />
+StackTrace :   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ClassLibrary_PropertyManager.Controller.cLandLords.VerifyLandLordInformation(String pLandLordEmail, String pLandLordPassword) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cLandLords.cs:line 102
+   at Nyumbani_Landlords.Login.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\Login.aspx.cs:line 72
+Date :24/5/2021 11:19:22 AM
+-----------------------------------------------------------------------------
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)<br />
+StackTrace :   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ClassLibrary_PropertyManager.Controller.cLandLords.VerifyLandLordInformation(String pLandLordEmail, String pLandLordPassword) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cLandLords.cs:line 102
+   at Nyumbani_Landlords.Login.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\Login.aspx.cs:line 72
+Date :24/5/2021 11:20:09 AM
+-----------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object.<br />
+StackTrace :   at Nyumbani_Landlords.AddUpdateBuilding.LoadDataOnUpdate() in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 159
+   at Nyumbani_Landlords.AddUpdateBuilding.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 34
+Date :24/5/2021 11:27:20 AM
+-----------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object.<br />
+StackTrace :   at Nyumbani_Landlords.AddUpdateBuilding.LoadDataOnUpdate() in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 159
+   at Nyumbani_Landlords.AddUpdateBuilding.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 34
+Date :24/5/2021 11:27:29 AM
+-----------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object.<br />
+StackTrace :   at Nyumbani_Landlords.AddUpdateBuilding.LoadDataOnUpdate() in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 159
+   at Nyumbani_Landlords.AddUpdateBuilding.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 34
+Date :24/5/2021 11:27:36 AM
+-----------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object.<br />
+StackTrace :   at Nyumbani_Landlords.AddUpdateBuilding.LoadDataOnUpdate() in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 159
+   at Nyumbani_Landlords.AddUpdateBuilding.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 34
+Date :24/5/2021 11:28:06 AM
+-----------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object.<br />
+StackTrace :   at Nyumbani_Landlords.AddUpdateBuilding.LoadDataOnUpdate() in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 159
+   at Nyumbani_Landlords.AddUpdateBuilding.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 34
+Date :24/5/2021 11:28:17 AM
+-----------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object.<br />
+StackTrace :   at Nyumbani_Landlords.AddUpdateBuilding.LoadDataOnUpdate() in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 159
+   at Nyumbani_Landlords.AddUpdateBuilding.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 34
+Date :24/5/2021 11:29:37 AM
+-----------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object.<br />
+StackTrace :   at Nyumbani_Landlords.AddUpdateBuilding.LoadDataOnUpdate() in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 159
+   at Nyumbani_Landlords.AddUpdateBuilding.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateBuilding.aspx.cs:line 34
+Date :24/5/2021 12:29:56 PM
+-----------------------------------------------------------------------------
+Message: Invalid object name 'tblAnnouncments'.<br />
+StackTrace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at ClassLibrary_PropertyManager.Controller.cAnnouncment.AddNewAnnouncment(mAnnouncment pAnnouncment) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cAnnouncment.cs:line 35
+   at Nyumbani_Landlords.AddAnnouncment.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddAnnouncment.aspx.cs:line 126
+Date :24/5/2021 12:52:14 PM
+-----------------------------------------------------------------------------
+Message: A field or property with the name 'TenantID' was not found on the selected data source.<br />
+StackTrace :   at System.Web.UI.WebControls.HyperLinkField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Nyumbani_Landlords.ViewEmployees.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewEmployees.aspx.cs:line 36
+Date :26/5/2021 9:42:14 AM
+-----------------------------------------------------------------------------
+Message: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'TenantEmail'.<br />
+StackTrace :   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.viewemployees_aspx.__DataBind__control21(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewEmployees.aspx:line 112
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Nyumbani_Landlords.ViewEmployees.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewEmployees.aspx.cs:line 36
+Date :26/5/2021 9:43:32 AM
+-----------------------------------------------------------------------------
+Message: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Status'.<br />
+StackTrace :   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.viewemployees_aspx.__DataBind__control27(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewEmployees.aspx:line 137
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Nyumbani_Landlords.ViewEmployees.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewEmployees.aspx.cs:line 36
+Date :26/5/2021 9:43:59 AM
+-----------------------------------------------------------------------------
+Message: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'BuildingName'.<br />
+StackTrace :   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.viewemployees_aspx.__DataBind__control24(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewEmployees.aspx:line 123
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Nyumbani_Landlords.ViewEmployees.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewEmployees.aspx.cs:line 36
+Date :26/5/2021 9:56:48 AM
+-----------------------------------------------------------------------------
+Message: Ambiguous column name 'LandLordID'.<br />
+StackTrace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at ClassLibrary_PropertyManager.Controller.cEmployee.GetEmployeeByLandLordID(Int32 pLandLordID) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cEmployee.cs:line 62
+   at Nyumbani_Landlords.ViewEmployees.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewEmployees.aspx.cs:line 31
+Date :26/5/2021 10:00:07 AM
+-----------------------------------------------------------------------------
+Message: Ambiguous column name 'LandLordID'.<br />
+StackTrace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at ClassLibrary_PropertyManager.Controller.cEmployee.GetEmployeeByLandLordID(Int32 pLandLordID) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cEmployee.cs:line 62
+   at Nyumbani_Landlords.ViewEmployees.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewEmployees.aspx.cs:line 31
+Date :26/5/2021 10:02:21 AM
+-----------------------------------------------------------------------------
+Message: Ambiguous column name 'LandLordID'.<br />
+StackTrace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at ClassLibrary_PropertyManager.Controller.cEmployee.GetEmployeeByLandLordID(Int32 pLandLordID) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cEmployee.cs:line 62
+   at Nyumbani_Landlords.ViewEmployees.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewEmployees.aspx.cs:line 31
+Date :26/5/2021 10:02:31 AM
+-----------------------------------------------------------------------------
+Message: Must declare the scalar variable "@Status".<br />
+StackTrace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ClassLibrary_PropertyManager.Controller.cEmployee.UpdateEmployee(mEmployee pEmployee) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cEmployee.cs:line 121
+   at Nyumbani_Landlords.AddEmployee.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateEmployee.aspx.cs:line 175
+Date :26/5/2021 10:20:13 AM
+-----------------------------------------------------------------------------
+Message: Incorrect syntax near the keyword 'WHERE'.<br />
+StackTrace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ClassLibrary_PropertyManager.Controller.cEmployee.UpdateEmployee(mEmployee pEmployee) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cEmployee.cs:line 121
+   at Nyumbani_Landlords.AddEmployee.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\AddUpdateEmployee.aspx.cs:line 175
+Date :26/5/2021 10:22:08 AM
+-----------------------------------------------------------------------------
+Message: Must declare the scalar variable "@BuildingID".<br />
+StackTrace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at ClassLibrary_PropertyManager.Controller.cInvoice.AddNewInvoice(mInvoice pInvoice) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cInvoice.cs:line 90
+   at Nyumbani_Landlords.GenerateInvoice.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\GenerateInvoice.aspx.cs:line 137
+Date :26/5/2021 12:57:48 PM
+-----------------------------------------------------------------------------
+Message: Must declare the scalar variable "@BuildingID".<br />
+StackTrace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at ClassLibrary_PropertyManager.Controller.cInvoice.AddNewInvoice(mInvoice pInvoice) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cInvoice.cs:line 90
+   at Nyumbani_Landlords.GenerateInvoice.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\GenerateInvoice.aspx.cs:line 137
+Date :26/5/2021 12:57:56 PM
+-----------------------------------------------------------------------------
+Message: Must declare the scalar variable "@BuildingID".<br />
+StackTrace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at ClassLibrary_PropertyManager.Controller.cInvoice.AddNewInvoice(mInvoice pInvoice) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cInvoice.cs:line 90
+   at Nyumbani_Landlords.GenerateInvoice.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\GenerateInvoice.aspx.cs:line 137
+Date :26/5/2021 1:02:03 PM
+-----------------------------------------------------------------------------
+Message: Must declare the scalar variable "@BuildingID".<br />
+StackTrace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at ClassLibrary_PropertyManager.Controller.cInvoice.AddNewInvoice(mInvoice pInvoice) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cInvoice.cs:line 90
+   at Nyumbani_Landlords.GenerateInvoice.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\GenerateInvoice.aspx.cs:line 137
+Date :26/5/2021 1:02:09 PM
+-----------------------------------------------------------------------------
+Message: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'AmountDUe'.<br />
+StackTrace :   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.viewinvoice_aspx.__DataBind__control23(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewInvoice.aspx:line 108
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Nyumbani_Landlords.ViewInvoice.Page_Load(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\ViewInvoice.aspx.cs:line 39
+Date :26/05/2021 13:46:34
+-----------------------------------------------------------------------------
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)<br />
+StackTrace :   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ClassLibrary_PropertyManager.Controller.cLandLords.VerifyLandLordInformation(String pLandLordEmail, String pLandLordPassword) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cLandLords.cs:line 102
+   at Nyumbani_Landlords.Login.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\Login.aspx.cs:line 72
+Date :22/6/2021 11:41:22 AM
+-----------------------------------------------------------------------------
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)<br />
+StackTrace :   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ClassLibrary_PropertyManager.Controller.cLandLords.VerifyLandLordInformation(String pLandLordEmail, String pLandLordPassword) in C:\KMFoodOrderingSystem\ClassLibrary_PropertyManager\Controller\cLandLords.cs:line 102
+   at Nyumbani_Landlords.Login.btnSubmit_Click(Object sender, EventArgs e) in C:\KMFoodOrderingSystem\Nyumbani-Landlords\Nyumbani-Landlords\Login.aspx.cs:line 72
+Date :22/6/2021 11:43:11 AM
+-----------------------------------------------------------------------------
