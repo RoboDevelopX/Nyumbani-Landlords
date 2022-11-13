@@ -21,11 +21,3 @@ Nyumbani property manager is a system that let's you manage your properties digi
 - sripts -  all common scripts  
 - web.config - sql connection and other web configurations
 
-## Hosting
-- IIS 
-
-## Hosting
-- Under Development - More info coming soon!
-
-
-
